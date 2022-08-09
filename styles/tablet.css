@@ -1,0 +1,418 @@
+:root {
+    --primary-bg: #ffffff;  
+    --secondary-bg: #fcda68;
+    --principal-f: #8e7bef;
+    --first-f: #222222;
+    --second-f: #423f40;
+    --third-f: #f9f5f2;
+  }
+
+  
+
+  .principal__container {
+    background-color: var(--primary-bg);
+    margin-top: 30px;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+  }
+
+  /*BARRA DE NAVEGACION*/
+
+  .navi {
+    margin-bottom: 30px;
+  }
+
+.log__menu {
+    max-width: .1px;
+}
+
+.navi__image {
+    position: relative;
+    z-index: -1;
+}
+
+.menu__options {
+    position: relative;
+    z-index: 1;
+}
+
+.home {
+    color: var(--principal-f);
+    
+}
+
+.menu__options a {
+    text-decoration: none;
+    margin-left: 32px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color:var(--first-f);
+}
+
+.menu__options .home {
+    color:var(--principal-f);
+}
+
+/*SECCION PRINCIPAL*/
+
+.principal__section {
+    position:relative;
+    display:inline-block;
+}
+
+.title {
+    text-align: left;
+    margin-top: 1px;
+    font-size: 4.3rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.principal__section--introduction {
+    text-align: left;
+    font-size: 1.7rem;
+    margin-bottom: 19px;
+}
+
+.principal__section--experience {
+    font-size: 1.3rem;
+    margin-bottom: 28px;
+}
+
+.image__mobile {
+    max-width: .1px;
+}
+
+.principal__photo {
+    position: relative;
+    z-index: -1;
+    margin-top: 20px;
+    margin-bottom: .1px;
+}
+
+.image__desktop {
+    max-width: 300px;
+    position: relative;
+    z-index: 1;
+}
+
+.principal__photo--desktop {
+    position: relative;
+    display:inline-block;
+}
+
+.home__desktop {
+    position: relative;
+    display:flex;
+    justify-content: baseline;
+}
+
+.network__linkedin {
+    max-height: 26px;
+}
+
+.network__instagram {
+    max-height: 26px;
+}
+
+.network__twitter {
+    max-height: 26px;
+}
+
+.principal__button {
+    width: 170px;
+    height: 30px;
+}
+
+.principal__button img {
+    max-width: 12px;
+    max-height: 32px;
+    margin-right: 12px;
+}
+
+.principal__button a {
+    font-size: 1rem;
+}
+
+/*SECCION BACKGROUND AMARILLA*/
+
+
+.info__resume {
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 40% 50%;
+    gap:10%;
+ }
+
+ .subtitle__resume {
+    font-size: 2.5rem;
+ }
+
+ .info__intro {
+    padding-top: 20px;
+   
+}
+
+.info__year1 {
+  font-size: 1.2rem;
+}
+
+.info__rol1 {
+  margin-left: 35px;
+  font-size: 1.2rem;
+  font-weight: 700;
+   
+}
+
+.info__company1 {
+  margin-left: 100px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  
+}
+
+.info__year2 {
+  font-size: 1.2rem;
+}
+
+.info__rol2 {
+    margin-left: 35px;
+    font-size: 1.2rem;
+    font-weight: 700;
+     
+  }
+  
+  .info__company2 {
+    margin-left: 98px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    
+  }
+
+.info__year3 {
+  font-size: 1.2rem;
+}
+
+.info__rol3 {
+    margin-left: 35px;
+    font-size: 1.2rem;
+    font-weight: 700;
+     
+  }
+  
+  .info__company3 {
+    margin-left: 98px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.sub__skills {
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+.info__skills {
+    margin-right: 80px;
+    margin-left: 80px;
+   
+    display: grid;
+    grid-template-columns: 100px 100px 110px 90px;
+    grid-template-rows: 40px 40px 40px 40px;
+    column-gap: 30px;
+    place-content: center;
+}
+
+.text__mobile {
+  grid-row-start: 2;
+  grid-column-end: 2;
+ 
+}
+
+.skill__motion {
+  grid-row-start: 1;
+  grid-column-end: 3;
+}
+
+.text__motion {
+    grid-row-start: 2;
+    grid-column-end: 3;
+   
+}
+
+.skill__sistemas {
+    grid-row-start: 1;
+    grid-column-end: 4;
+}
+
+.text__sistemas {
+    grid-row-start: 2;
+    grid-column-end: 4;
+   
+}
+
+.skill__gestion {
+    grid-row-start: 1;
+    grid-column-end: 5;
+   
+}
+
+.text__gestion {
+    grid-row-start: 2;
+    grid-column-end: 5;
+  
+}
+
+/*PORTAFOLIO*/
+.gallery__sec {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+}
+
+.sub__briefcase {
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+.image__b {
+    border:var(--third-f);
+    border-style: solid;
+    max-width: 195.5px;
+    max-height: 120px;
+}
+
+.image__t {
+    border:var(--third-f);
+    border-style: solid;
+    max-width: 193.5px;
+    max-height: 120px;
+}
+
+.image__h {
+    border:var(--third-f);
+    border-style: solid;
+    max-width: 193.5px;;
+    max-height: 120px;
+}
+
+.gallery__briefcase {
+  
+    display: grid;
+    grid-template-columns: 32% 32% 32% ;
+    grid-template-rows: 35% 35% 35%;
+    justify-content: center;
+   
+} 
+
+.gall__beauty {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-left: .1px;
+    margin-bottom: .1px;
+    grid-row-start: 1;
+    grid-column-end: 2;
+   
+}
+
+.img__beauty {
+    margin-right: .1px;
+    margin-left: .1px;
+    margin-bottom: .1px;
+    grid-row-start: 2;
+    grid-column-end: 2;
+ 
+}
+
+.gall__training {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-left: .1px;
+    margin-bottom: .1px;
+    grid-row-start: 1;
+    grid-column-end: 3;
+}
+
+.img__training {
+    margin-right: .1px;
+    margin-left: .1px;
+    margin-bottom: .1px;
+    grid-row-start: 2;
+    grid-column-end: 3;
+}
+
+.gall__hotel {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-left: .1px;
+    margin-bottom: .1px;
+    grid-row-start: 1;
+    grid-column-end: 4;
+}
+
+.img__hotel {
+    margin-right: .1px;
+    margin-left: .1px;
+    margin-bottom: .1px;
+    grid-row-start: 2;
+    grid-column-end: 4;
+}
+ 
+
+
+.sub__footer {
+    margin-left: 80px;
+    display: flex;
+    justify-content:left;
+}
+
+.size__footer {
+    margin-left: 230px;
+    margin-right: 230px;
+}
+
+.foot__contact {
+    font-size: 2.3rem;
+}
+
+.image__phone {
+    max-width: 52px;
+    padding:12px;
+    background-color:var(--third-f);
+    border-radius: 28%;
+}
+
+.image__email {
+    max-width: 52px;
+    padding:12px;
+    background-color:var(--third-f);
+    border-radius: 28%;
+}
+
+.celphone {
+   font-size: 1rem;
+   margin-left: 50px;
+   font-weight: 500;
+}
+
+.email {
+    font-size: 1rem;
+    margin-left: 93px;
+    font-weight: 500;
+}
+
+.number {
+    font-size: .8rem;
+    margin-left: 61px;
+}
+
+.username {
+    font-size: .8rem;
+    margin-left: 79px;
+}
+
+.academlo {
+    font-size: 1.1rem;
+}

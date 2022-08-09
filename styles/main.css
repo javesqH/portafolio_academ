@@ -1,0 +1,475 @@
+
+:root {
+  --primary-bg: #ffffff;  
+  --secondary-bg: #fcda68;
+  --principal-f: #8e7bef;
+  --first-f: #222222;
+  --second-f: #423f40;
+  --third-f: #f9f5f2;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+}
+
+hr {
+  color:#cc9191;
+}
+/*.principal {
+  background-color: aquamarine;
+}*/
+
+.principal__container {
+  background-color: var(--primary-bg);
+  margin-top: 16px;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-bottom: 60px;
+}
+
+.navi {
+    position:relative;
+    display:flex;
+    flex-direction: row;
+    justify-content:end;
+    width: 100%;
+    height: 25px;
+}
+
+.menu__options {
+    position: relative;
+    z-index: -1;
+}
+
+.principal__section {
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 100%;
+}
+
+.title {
+   font-size: 2.9rem;
+   font-weight: 600;
+   text-align: center;
+   margin-top: 12px;
+   color: var(--first-f);
+}
+
+.principal__section--introduction {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 10px;
+    color: var(--second-f);
+}
+
+.principal__section--experience {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-top: 10px;
+    color: var(--second-f);
+}
+
+.principal__section--experience span {
+    color: var(--principal-f);
+}
+
+.principal__networks {
+    margin-top: 24px;
+}
+
+.network__linkedin {
+    max-height: 28px;
+    padding: 6px;
+    background-color: var(--principal-f);
+    border-radius: 38%;
+}
+
+.network__instagram {
+    max-height: 28px;
+    padding: 6px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: var(--principal-f);
+    border-radius: 38%;
+}
+
+.network__twitter {
+    max-height: 28px;
+    padding: 6px;
+    background-color: var(--principal-f);
+    border-radius: 38%;
+}
+
+.principal__photo {
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.image__desktop {
+    max-width: .1px;
+    position: relative;
+    z-index: -1;
+}
+
+.principal__button {
+    width: 207px;
+    height: 40px;
+    background-color: var(--principal-f);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal__button img {
+    max-width: 16px;
+    max-height: 34px;
+    margin-right: 20px;
+}
+
+.principal__button a {
+    font-size: 13px;
+    font-weight: 500;
+    color:var(--primary-bg);
+    text-decoration: none;
+}
+
+.main__info {
+    background-color: var(--secondary-bg);
+    margin-bottom: 60px;
+}
+
+.info__resume {
+   margin-right: 15px;
+   margin-left: 15px;
+   margin-bottom: 35px;
+}
+
+.subtitle__resume {
+    padding-top: 25px;
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: var(--first-f);
+}
+
+.info__intro {
+    padding-top: 10px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color:var(--second-f);
+}
+
+.info__experience {
+    padding-top: 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--first-f);
+}
+
+.info__period1 {
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+
+.info__year1 {
+    display: inline-block;
+    color: var(--second-f);
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.info__rol1 {
+    display: inline-block;
+    margin-left: 18px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--first-f);
+}
+
+.info__company1 {
+    margin-left: 77px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--second-f);
+}
+
+.info__period2 {
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+
+.info__year2 {
+    display: inline-block;
+    color: var(--second-f);
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.info__rol2 {
+    display: inline-block;
+    margin-left: 18px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--first-f);
+}
+
+.info__company2 {
+    margin-left: 77px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--second-f);
+}
+
+.info__period3 {
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+
+.info__year3 {
+    display: inline-block;
+    color: var(--second-f);
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.info__rol3 {
+    display: inline-block;
+    margin-left: 18px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--first-f);
+}
+
+.info__company3 {
+    margin-left: 77px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--second-f);
+}
+
+.sub__skills {
+  padding-top: 20px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  color: var(--first-f);
+}
+
+.skill__mobile {
+    display: flex;
+    justify-content: center;
+    max-height: 35px;
+}
+
+.skill__motion {
+    display: flex;
+    justify-content: center;
+    max-height: 35px;
+}
+
+.skill__sistemas {
+    display: flex;
+    justify-content: center;
+    max-height: 35px;
+}
+
+.skill__gestion {
+    display: flex;
+    justify-content: center;
+    max-height: 35px;
+}
+
+.text__mobile {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color:var(--second-f);
+}
+
+.text__motion {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color:var(--second-f);
+}
+
+.text__sistemas {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color:var(--second-f);
+}
+
+.text__gestion {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 35px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color:var(--second-f);
+}
+
+/*AREA DE PORTAFOLIOS*/
+
+.sub__briefcase {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-bottom: 12px;
+    color: var(--first-f);
+}
+
+.gall__beauty {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-bottom: 12px;
+    color:var(--principal-f);
+}
+
+.image__b {
+    max-width: 300px;
+    max-height: 250px;
+}
+
+.img__beauty {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+
+.gall__training {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:var(--principal-f);
+    margin-left: 15px;
+    margin-bottom: 2px;
+}
+
+.image__t {
+    max-width: 320px;
+    max-height: 240px;
+}
+
+.img__training {
+    margin-right: 4px;
+    margin-bottom: 10px;
+}
+
+.gall__hotel {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:var(--principal-f);
+    margin-left: 15px;
+}
+
+.image__h {
+    max-width: 320px;
+    max-height: 240px;
+}
+
+.img__hotel {
+    margin-bottom: 15px;
+}
+
+/*FOOTER*/
+
+.sub__footer {
+    display: flex;
+    justify-content: center;
+}
+
+.foot__contact {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 18px;
+    color: var(--first-f);
+}
+
+.image__phone {
+    max-width: 50px;
+    padding:12px;
+    background-color:var(--third-f);
+    border-radius: 50%;
+}
+
+.image__email {
+    max-width: 50px;
+    padding:12px;
+    background-color:var(--third-f);
+    border-radius: 50%;
+}
+
+.con__phone {
+    display: inline-block;
+    margin-left: 60px;
+    margin-bottom: 8px;
+}
+
+.con__email {
+    display:inline-block;
+    margin-left: 90px;
+}
+
+.celphone {
+    display: inline-block;
+    margin-left: 35px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color:var(--first-f);
+}
+
+.email {
+    display: inline-block;
+    margin-left: 70px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--first-f);
+}
+
+.number {
+    display: inline-block;
+    margin-left: 55px;
+    font-weight: 400;
+    color: var(--second-f);
+}
+
+.username {
+    display: inline-block;
+    margin-left: 60px;
+    font-weight: 400;
+    color: var(--second-f);
+}
+
+.academlo {
+    font-size: 1.4rem;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    color:var(--principal-f);
+}
+
+.academlo span {
+    color: var(--principal-f);
+}

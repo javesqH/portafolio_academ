@@ -1,0 +1,75 @@
+:root {
+    --primary-bg: #ffffff;  
+    --secondary-bg: #fcda68;
+    --principal-f: #8e7bef;
+    --first-f: #222222;
+    --second-f: #423f40;
+    --third-f: #f9f5f2;
+  }
+
+.menu__options a {
+    margin-left: 57px;
+}
+
+.title {
+    font-size: 5.8rem;
+}
+
+.principal__section--introduction {
+    font-size: 2.2rem;
+}
+
+.principal__section--experience {
+    font-size: 1.7rem;
+}
+
+.image__desktop {
+    max-width: 350px;
+}
+
+.network__linkedin {
+    max-height: 32px;
+}
+
+.network__instagram {
+    max-height: 32px;
+}
+
+.network__twitter {
+    max-height: 32px;
+}
+
+.principal__button {
+    width: 230px;
+    height: 30px;
+}
+
+.principal__button img {
+    max-width: 15px;
+    max-height: 35px;
+    margin-right: 12px;
+}
+
+.principal__button a {
+    font-size: 1.1rem;
+}
+
+.subtitle__resume {
+    font-size: 2.9rem;
+ }
+
+ .info__intro {
+  font-size: 1.5rem;
+}
+
+.image__phone {
+   margin-left: 120px;
+}
+
+.celphone {
+   margin-left: 170px;
+}
+
+.number {
+  margin-left: 180px;
+}
